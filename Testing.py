@@ -1,7 +1,4 @@
-#%% This script tests the trained fully convolutional network based on the 
-# saved training weights, and normalization created using train_model.
 
-# Import Libraries and model
 import numpy as np
 import matplotlib.pyplot as plt
 from skimage import io
