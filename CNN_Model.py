@@ -1,8 +1,4 @@
 
-# %% Model definition + helper functions
-# %%
-
-# Import modules and libraries
 from keras.models import Model
 from keras.layers import Input, Activation, UpSampling2D, Convolution2D, MaxPooling2D, BatchNormalization
 from keras.callbacks import Callback
