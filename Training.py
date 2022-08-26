@@ -1,7 +1,4 @@
-#%% This script trains the fully convolutional network using keras with a 
-# tensorflow backend, based on the saved training examples created in MATLAB.
 
-# Import libraries and modules
 import numpy as np
 import matplotlib.pyplot as plt
 import h5py
