@@ -37,7 +37,3 @@ Deep-STORM is a single molecule localization microscopy code for training a cust
 
 * To use the trained network on data for image reconstruction from a blinking movie, run the command: `python  Testing.py --datafile <path_to_tiff_stack_for_reconstruction> --weights_name <path_to_the_trained_model_weights_as_hdf5_file> --meanstd_name <path_to_the_saved_normalization_factors_as_mfile> --savename <path_for_saving_the_Superresolution_reconstruction_matfile> --upsampling_factor <desired_upsampling_factor> --debug <boolean (0/1) for saving individual predictions>`
     * Note: The inputs `upsampling_factor` and `debug` are optional. By default, the `upsampling_factor` is set to 8, and `debug` is set to 0.
- 
-* There are 2 different demo examples that demonstrate the use of this code:
-    1. `demo1 - Simulated Microtubules` - learning a CNN for localizing simulated microtubules structures obtained from the EPFL 2013 Challenge (Fig. 4 main text). It takes approximately 2 hours to train a model from scratch on a Titan Xp. See the [**pdf instructions**](https://github.com/EliasNehme/Deep-STORM/blob/master/demo1 - Simulated Microtubules/demo1.pdf) inside this folder for a detailed step by step application of the software, with snapshots and intermediate outputs.
-    2. `demo2 - Real Microtubules` - pre-trained CNN on simulations for localizing experimental microtubules (Fig. 6 main text).
